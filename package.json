@@ -1,0 +1,22 @@
+{
+  "name": "qr-restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Complete modern QR-based restaurant ordering system with dual role (Customer & Admin), common QR physical workflow, and live order tracking.",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "restaurant",
+    "qr-ordering",
+    "contactless-dining",
+    "express",
+    "socketio",
+    "sqlite",
+    "react"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
